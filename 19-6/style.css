@@ -1,0 +1,31 @@
+
+.a{
+    color: rgb(244, 144, 72);
+}
+.b{
+    color: black;
+    text-align: end;
+}
+.c{
+    color: #000;
+}
+.d{
+    color: rgb(111, 109, 108);
+    text-align: end;
+}
+
+ .row1{
+   border: 1px solid black;
+   border-radius: 4px;
+   box-shadow: 2px 3px gray;
+
+   
+  
+}
+
+.a1{
+    color: blue;
+}
+.a2{
+    color: green;
+}
