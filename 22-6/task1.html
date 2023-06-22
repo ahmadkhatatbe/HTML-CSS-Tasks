@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      *{
+        padding: 0;
+        margin: 0;
+      }
+      body{
+        margin: 20px;
+        padding: 20px;
+      }
+      .task1{
+        display: grid;
+        grid-template-columns: auto auto auto ;
+        gap: 20px;
+      }
+      .head{
+        background-color: rgb(100, 152, 32);
+        height: 200px;
+        grid-column: 1/4;
+      }
+      .cont{
+        background-color: rgb(12, 155, 160);
+        height: 200px;
+        
+        
+      }
+      .footer{
+        
+        height: 100px;
+        display: grid;
+        grid-template-columns: auto auto auto auto ;
+        grid-column: 1/4;
+        gap: 20px;
+        
+      }
+      .s1{
+          background-color: rgb(159, 153, 153);
+      }
+      
+
+      
+      @media screen and (min-width:426px) and (max-width:768px){
+
+        body{
+        margin: 20px;
+        padding: 20px;
+      }
+      .task1{
+        display: grid;
+        grid-template-columns: auto  auto  auto;
+        gap: 10px;
+      }
+      .head{
+        background-color: rgb(100, 152, 32);
+        height: 100px;
+        grid-column: 1/4;
+      }
+      .cont{
+        background-color: rgb(12, 155, 160);
+        height: 100px;
+        grid-column: 1/4;
+        
+        
+      }
+      .footer{
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-template-rows: auto auto ;
+        gap: 20px;
+       
+      }
+      .s1{
+          background-color: rgb(159, 153, 153);
+          height: 150px;
+         
+      }
+      
+      }
+ 
+               /* media for phone */
+
+      @media screen and (max-width:425px){
+
+body{
+margin: 20px;
+padding: 20px;
+}
+.task1{
+display: grid;
+grid-template-columns: auto auto auto ;
+gap:10px;
+}
+.head{
+background-color: rgb(100, 152, 32);
+height: 200px;
+grid-column: 1/4;
+}
+.cont{
+background-color: rgb(12, 155, 160);
+height: 200px;
+grid-column: 1/4;
+
+
+}
+.footer{
+display: grid;
+grid-template-columns: auto auto auto auto  ;
+height: 200px;
+grid-column: 1/4;
+row-gap: 10px;
+
+}
+.s1{
+          background-color: rgb(159, 153, 153);
+          height: 200px;
+          grid-column: 1/5;
+      }
+
+}
+      
+      
+
+    </style>
+</head>
+<body>
+    <div class="task1" >
+        <div class="head"></div>
+         <div class="cont"></div>
+         <div class="cont"></div>
+         <div class="cont"></div>
+         <div class="footer">
+            <div class="s1"></div>
+            <div class="s1"></div>
+            <div class="s1"></div>
+            <div class="s1"></div>
+            
+         </div>
+
+    </div>
+        
+
+
+</body>
+</html>
