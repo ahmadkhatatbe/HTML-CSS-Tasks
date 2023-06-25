@@ -62,7 +62,9 @@
             
             display: grid;
             grid-template-columns: 200px 500px 100px ;
-            gap: 10px;
+            gap: 20px;
+            width: 100vw;
+            height: 100vh;
             
            
         }
@@ -76,7 +78,7 @@
             display: flex;
             justify-content: center;
             background-color:orange ;
-            height: 40px;
+            height: 50px;
             grid-column: 1/4;
             padding: 10px;
 
@@ -85,7 +87,7 @@
         .middle{
             grid-template-columns: auto  ;
             height: 300px;
-            gap: 10px;
+            gap: 20px;
             grid-column: 1/4;
              
 
@@ -104,66 +106,68 @@
         p{
             background-color: aliceblue;
             margin-left: 10px;
-            width: 170px;
-            height: 20px;
+            height: 35px;
+            width:190px;
+           
         }
             
     }
 
 
         @media screen and (max-width:425px){
-     
             .task2{
             
             display: grid;
             grid-template-columns: 200px 500px 100px ;
             gap: 10px;
+            width: 100vw;
+            height: 100vh;
             
            
         }
 
         .head{
              background-color: rgb(0, 191, 255) ;
-             height: 100px;
+             height: 200px;
              grid-column: 1/4;
         }
-        .left{display: block;
-            
+        .left{
+           display: grid;
+           grid-template-columns: auto auto auto auto;
             background-color:orange ;
-            height: 160px;
-            grid-column: 1/4;
-
+            height: 350px;
+            grid-column: 1/5;
         }
-        .left p{
-            width: auto;
+        p{
+           grid-column: 1/5;
+            background-color: aliceblue;
+            margin-left: 10px;
+            height: 55px;
+            width: 800px;
            
         }
-       
+           
         .middle{
-            grid-template-columns: auto   ;
-            height: 300px;
-            gap: 10px;
+            grid-template-columns: auto  ;
+            height: 600px;
+            gap: 20px;
             grid-column: 1/4;
              
 
         }
         .mid1{
            background-color: gray;
-            height:60px;
-          
+            height:100px;
+           
            
         }
         .right{
             background-color: rgb(22, 180, 22);
-            height:50px;
+            height:200px;
             grid-column: 1/4;
         }
-        p{
-            background-color: aliceblue;
-           margin-left: 10px;
-            height: 20px;
-        }
-
+       
+            
         }
 
     </style>
