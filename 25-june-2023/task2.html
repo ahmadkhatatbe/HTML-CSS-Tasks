@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.anima{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    animation-name: move;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+   
+}
+@keyframes move{
+    0%{background:linear-gradient(rgba(0,255,0));left: 300px;top: 0px  0px;}
+    25%{background:linear-gradient(rgba(200,207,111),rgb(64, 66, 47));left: 300px; top: 0px;}
+    50%{background:linear-gradient(rgba(43, 211, 57 ),rgb(5, 45, 224));left: 300px; top: 300px}
+    75%{background:linear-gradient(rgb(212, 23, 13),rgb(0, 204, 126));left: 0px;top:300px}
+    100%{background:linear-gradient(rgba(200,207,111),rgb(11, 183, 251));left: 0px;top:0px}
+    
+}
+    </style>
+</head>
+<body>
+    
+<div class="anima">
+
+</div>
+
+</body>
+</html>
