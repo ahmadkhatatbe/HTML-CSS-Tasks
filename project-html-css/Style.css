@@ -3,7 +3,7 @@
     padding: 0;
     color: #4E4039;
     box-sizing: border-box;
-
+scroll-behavior: smooth;
 }
 body{
     display: grid;
@@ -63,12 +63,13 @@ span{
     color: #EB5D1E;
 }
 .checkbtn img{
-    width: 60px;
-height: 60px;
+    margin-top: 20px;
+width: 80px;
+height: 80px;
 }
 .checkbtn{
 float: right;
-margin-right: 150px;
+margin-right: 120px;
 margin-top: 50px;
 cursor: pointer;
 display: none;
@@ -865,6 +866,9 @@ padding: 10px 20px;
   margin-top: 110px;
    font-size: 25px;
     
+ }
+ .sub-nav-footer a{
+    font-size: 20px;
  }
  .right-footer{
     
